@@ -9,10 +9,32 @@ module.exports = {
   ],
   theme: {
     extend: {
+      borderRadius: {
+        20: '20px',
+      },
+      colors: {
+        'age-gray-1': '#99908d',
+        'age-gray-2': '#ebe9e9',
+        'age-gray-3': '#f2f4f7',
+        'age-gray-4': '#667085'
+      },
+      fontSize: {
+        10: '10px',
+        17: '17px'
+      },
       height: {
-        '52px': '52px'
+        '52px': '52px',
+        '84px': '84px'
+      },
+      inset: {
+        '20px': '50px',
+      },
+      minWidth: {
+        113: '113px'
       },
       width: {
+        '84px': '84px',
+        343: '343px',
         375: '375px',
       }
     },
