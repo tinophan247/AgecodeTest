@@ -1,4 +1,5 @@
 import React from "react";
+import PlayIcon from '../Icons/play'
 
 const AudioItem = ({img,title,name, labelBtn='Streaming options'}) => {
   return (
@@ -9,6 +10,9 @@ const AudioItem = ({img,title,name, labelBtn='Streaming options'}) => {
           alt="not-found"
           className="rounded-l-lg"
         />
+        <div className="absolute -translate-y-14 translate-x-7 cursor-pointer">
+        <PlayIcon/>
+        </div>
       </div>
       <div className="ml-4 mt-2">
         <p className="text-sm font-medium">{title}</p>
