@@ -1,4 +1,4 @@
-import Profile from './profile/index'
+import Profile from "./profile/index";
 
 const Home = () => {
   return (

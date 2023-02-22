@@ -18,6 +18,9 @@ module.exports = {
         'age-gray-3': '#f2f4f7',
         'age-gray-4': '#667085'
       },
+      fontFamily: {
+        'hiragino-sans': ['Hiragino-Sans'],
+      },
       fontSize: {
         10: '10px',
         17: '17px'

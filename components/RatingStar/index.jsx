@@ -1,7 +1,7 @@
 import React from "react";
 import StarIcon from "../Icons/star";
 
-const RatingStar = ({user='', ratingStar = 0, date= '', text=''}) => {
+const RatingStar = ({ user = "", ratingStar = 0, date = "", text = "" }) => {
   const renderStar = (star) => {
     switch (star) {
       case 1: {
@@ -73,7 +73,7 @@ const RatingStar = ({user='', ratingStar = 0, date= '', text=''}) => {
     }
   };
   return (
-    <div className='mt-6'>
+    <div className="mt-6">
       <div className="flex justify-between">
         <div className="flex items-center">
           <p className="font-bold text-xs mr-2">{user}</p>
@@ -81,7 +81,10 @@ const RatingStar = ({user='', ratingStar = 0, date= '', text=''}) => {
         </div>
         <p className="text-xs text-age-gray-1">{date}</p>
       </div>
-      <div className="text-xs mt-2" dangerouslySetInnerHTML={{ __html: text}}/>
+      <div
+        className="text-xs mt-2"
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
     </div>
   );
 };
