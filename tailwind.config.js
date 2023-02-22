@@ -29,11 +29,15 @@ module.exports = {
       inset: {
         '20px': '50px',
       },
+      maxWidth: {
+        375: '375px'
+      },
       minWidth: {
         113: '113px'
       },
       width: {
         '84px': '84px',
+        275: '275px',
         343: '343px',
         375: '375px',
       }

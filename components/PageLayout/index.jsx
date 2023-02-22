@@ -1,10 +1,7 @@
-import AudioItem from "@/components/AudioItem";
 import SwitchTab from "@/components/SwitchTab";
-import VideoItem from "@/components/VideoItem";
-import VideoPlayer from "@/components/VideoItem/VideoPlayer";
 import Head from "next/head";
 
-const Home = () => {
+const PageLayout = ({children}) => {
   return (
     <>
       <Head>
@@ -34,19 +31,7 @@ const Home = () => {
               <div className="mt-10">
                 <SwitchTab />
               </div>
-              <div className="mt-5">
-                <div className="text-xl font-bold ">オーディオ</div>
-                <AudioItem />
-                <AudioItem />
-              </div>
-              <div className="mt-5">
-                <div className="text-xl font-bold">ビデオ</div>
-                <div className="mt-5">
-                  <VideoPlayer />
-                  <VideoItem />
-                  <VideoItem />
-                </div>
-              </div>
+              {children}
             </div>
           </div>
         </div>
@@ -55,4 +40,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default PageLayout;
