@@ -24,8 +24,8 @@ const createVideoData = (img, title) => {
 export const videoDatas = [
   createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
   createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
-  createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
-  createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
+  // createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
+  // createVideoData("./assets/videoItem.png", "Tickets on Sale Friday"),
 ];
 
 const createRatingData = (user, ratingStar, date, text) => {

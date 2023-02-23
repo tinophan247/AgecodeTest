@@ -1,7 +1,12 @@
 import React from "react";
 import PlayIcon from "../Icons/play";
 
-const AudioItem = ({ img, title, name, labelBtn = "Streaming options" }) => {
+const AudioItem = ({
+  img,
+  title = "",
+  name = "",
+  labelBtn = "Streaming options",
+}) => {
   return (
     <div className="w-full h-84px flex bg-age-gray-3 mt-5 rounded-lg">
       <div className="w-84px h-84px">

@@ -3,7 +3,6 @@ import RatingStar from "../../components/RatingStar";
 import { ratingDatas } from "../../constant";
 
 const Rating = () => {
-  console.log(ratingDatas);
   return (
     <PageLayout>
       <div>

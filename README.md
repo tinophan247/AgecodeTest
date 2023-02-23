@@ -38,5 +38,10 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Fake date
-Data fake will contain in constant.jsx
+
+Data fake will contain in <constant.jsx>
 If you want to text data of customize block when > 2, please duplicate data at <videoDatas>.
+
+## Deployment
+
+domain : https://tinophan247.github.io/AgecodeTest/
